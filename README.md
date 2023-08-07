@@ -23,3 +23,4 @@
 3. [번외: ElasticSearch7 이상 버전을 권장하는 이유](https://codediary21.tistory.com/139)
 4. [엘라스틱서치 기본](https://yanychoi.notion.site/3-1-ES-c8447a72b70a48a0b690637acdafc9f4?pvs=4)
 5. [엘라스틱서치 검색](https://simuruk.notion.site/41e14b827f8b4fb8bf1327c1bf7270da?pvs=4)
+6. [엘라스틱서치 집계](https://www.notion.so/acb62390457b406d98b1322430ad3df6)
