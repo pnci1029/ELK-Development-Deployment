@@ -86,14 +86,14 @@ public class MemberSearchRepositoryImpl implements MemberSearchRepositoryCustom{
         Aggregations aggregations = response.getAggregations();
         List<Aggregation> aggregations1 = aggregations.asList();
         for (Aggregation aggregation : aggregations1) {
-            System.out.println(aggregation.getName());
+//            System.out.println(aggregation.getName());
         }
         ParsedStringTerms genderAggregation = aggregations.get("gender.keyword");
         List<? extends Terms.Bucket> buckets = genderAggregation.getBuckets();
         for (Terms.Bucket bucket : buckets) {
             String key = bucket.getKeyAsString();
             long docCount = bucket.getDocCount();
-            System.out.println("Gender: " + key + ", Doc Count: " + docCount);
+//            System.out.println("Gender: " + key + ", Doc Count: " + docCount);
         }
 
 
